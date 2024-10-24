@@ -1,0 +1,77 @@
+h1 {
+    font-family: 'Goudy Old Style';
+    font-size: 400%;
+    margin: 50px;
+}
+
+
+h2 {
+    font-family: 'Goudy Old Style';
+    font-size: 300%;
+    margin: 40px;
+}
+
+
+h3 {
+    font-family: 'Goudy Old Style';
+    font-size: 200%;
+    margin: 20px;
+}
+
+
+p {
+    font-family: 'Goudy Old Style';
+    font-size: 160%;
+    margin: 10px;
+}
+
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+
+li {
+    font-family: 'Goudy Old Style';
+    font-size: 150%;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1700px;
+    margin: auto;
+}
+
+
+.grid-item {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.grid-item img {
+    display: block;
+    width: 800px;
+    height: 440px;
+}
+
+
+.grid-item-square {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.grid-item-square img {
+    display: block;
+    width: 800px;
+    height: 800px;
+}
+
+
+div.center {
+    text-align: center;
+}
